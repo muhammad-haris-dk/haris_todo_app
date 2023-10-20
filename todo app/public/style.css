@@ -1,0 +1,76 @@
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background-image: url(./to-do-list-icon-a-notebook-with-a-completed-todo-list-3d-render-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#input {
+  margin-top: 200px;
+  margin-left: 120px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;  
+}
+.button:hover {
+  background-color: transparent;
+}
+.buttony:hover {
+  background-color: transparent;
+}
+.button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(74, 130, 205);
+  border: none;
+}
+.buttony {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(108, 104, 198);
+  border: none;
+}
+.delbtn:hover {
+  background-color: white;
+}
+.delbtn{
+  background-color: rgb(108, 104, 198);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+
+  position: absolute;
+  right: 800px;
+}
+.editbtn{
+  background-color: rgb(74, 130, 205);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  margin-left: 20px;
+  position: absolute;
+  left: 340px;
+}
+.editbtn:hover{
+  background-color: white;
+}
+.lielement{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  width: 360px;
+  margin-left: 80px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  height: 45px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  margin-left: 10px;
+}
